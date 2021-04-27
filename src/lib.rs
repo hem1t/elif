@@ -1,3 +1,4 @@
+#[macro_export]
 macro_rules! elif {
     (
         $(($ifcond:expr) $if:expr)+,
